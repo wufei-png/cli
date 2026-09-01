@@ -59,6 +59,9 @@ Use this for message history when the conversation is already known.
 - Searching across conversations → use [[+messages-search]].
 - Fetching full details for known message ids → use [[+messages-mget]].
 
+### Tips
+- Use --concise when compact Markdown is more useful than the default JSON response.
+
 ### Examples
 
 **List messages in a group chat**
@@ -226,6 +229,9 @@ lark-cli im +messages-send --chat-id oc_xxx --text "Hello"
 
 ## +threads-messages-list
 Use this when a message or thread id is known and the replies inside that thread are needed.
+
+### Tips
+- Use --concise when compact Markdown is more useful than the default JSON response.
 
 ### Examples
 
